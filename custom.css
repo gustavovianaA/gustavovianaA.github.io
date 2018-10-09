@@ -1,0 +1,192 @@
+  body{
+     background-color:  #d1d6e0;
+    }
+
+  nav{
+      background-color: #333c4d;
+      border-bottom: 2px solid #333c4d;
+    }
+
+  nav a , nav a:hover{
+      color: #fff;
+    }
+
+    .navbar_marca{
+     border-right: 1px solid #949fb8;      
+    }
+
+    .navbar_icon{
+      width: 100%;
+    }
+
+
+
+
+
+  .conteudo{
+      display: none;
+     }
+
+     .atual{
+      display: inline-block;
+      padding: 0;
+      border-left: 4px double #95a0b7;
+      border-right: 4px double  #95a0b7  ;
+      border-bottom: 1px solid #95a0b7;
+      
+      background-color:  #e1e7ea;
+      padding-bottom: 30px;
+     }
+
+    
+     
+     .menu_conteudo{
+     
+     }
+     
+     
+
+     .site_conteudo{
+      padding-bottom: 40px;
+      padding-top: 100px;
+      background-color:  #d1d6e0;
+     }
+
+
+     .controles_div{
+     padding: 0;
+
+     
+     }
+
+     .controles{
+      position:relative;
+      top: 10px;
+      width:80%;
+    
+     padding: 4px; 
+    
+     }
+
+   #back{
+    border-right : 3px solid #d93f42;
+    float: right;
+    }
+
+   #next{
+    border-left : 3px solid #d93f42;
+    }
+   
+   .conteudo_titulos{
+    background-color: #52607a;
+    color: #fff;  
+    line-height: 2.8em;
+    }
+
+      .img-con{
+      width: 20%;
+      padding: 10px 2%;
+      background-color: #fff;
+      border: 2px solid #d93f42;
+      border-radius: 8px;
+      margin: 0 1%;
+      }
+
+      .formacao_item{
+    border-radius: 8px;
+      border: 1px solid #d93f42; 
+      background-color: #fff; 
+      }
+
+      .formacao_titulo{
+       background-color: #dd5557; 
+      }
+
+      .portfolio_item{
+        border-radius: 8px;
+      border: 1px solid #d93f42; 
+      }
+
+     
+
+      .portfolio_titulo{
+      border-radius: 8px 8px 0 0;
+      background-color: #d93f42; 
+      }
+
+
+       .portfolio_mais{
+      border-radius: 0px 0px 8px 8px;
+      background-color: #d93f42;  
+      
+      }
+
+      .portfolio_mais:hover{
+       background-color:  #333c4d; 
+      }
+
+     .img_form{
+      width: 45%;
+      }
+
+     .img_port{
+      width: 60%;
+     }
+
+     .img_port_modal{
+      width: 30%;
+     }
+
+     .sobre_titulo{
+     background-color:#52607a;
+     color: #fff;
+     line-height: 1.2em;
+     }
+
+     .sobre_descricao{
+     background-color:  #fff;
+     border: 1px solid #52607a;
+     }
+
+     .footer{
+        background-color: #333c4d;
+     }
+
+
+      @media (max-width: 992px){
+      
+        .navbar_icon{
+    width: 50%;
+    }
+
+      }
+
+
+     @media (max-width: 768px) 
+{
+  .site_conteudo{
+   padding-top: 120px; 
+  }
+
+  
+
+  .nav_social{
+   padding-top: 20px; 
+   padding-bottom: 10px;
+  }
+
+   .navbar_marca{
+     border-right: 1px solid transparent;
+     margin:0 auto;     
+    }
+}
+
+
+  @media (max-width: 580px){
+
+ .site_conteudo{
+   padding-top: 180px; 
+  }
+
+
+  }
