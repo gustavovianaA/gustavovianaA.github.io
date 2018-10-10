@@ -45,4 +45,16 @@ $(this).css("backgroundColor","transparent");
 
 });
 
+$(".nav-link").click(function(){
+
+$(".controles").show();
+
+if($(".atual").attr("id") == 1){
+$("#back").hide();	
+}else if($(".atual").attr("id") == 3){
+$("#next").hide();
+}
+
+});
+
 });
