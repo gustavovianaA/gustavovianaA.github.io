@@ -205,5 +205,11 @@
     
      }
 
+        .conteudo_titulos{
+    background-color: #52607a;
+    color: #fff;  
+    line-height: 1.5em;
+    }
+
 
   }
