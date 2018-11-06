@@ -159,6 +159,11 @@
     width: 50%;
     }
 
+     .navbar_marca{
+     border-right: 1px solid transparent;
+     margin:0 auto;     
+    }
+
       }
 
 
@@ -175,17 +180,14 @@
    padding-bottom: 10px;
   }
 
-   .navbar_marca{
-     border-right: 1px solid transparent;
-     margin:0 auto;     
-    }
+  
 }
 
 
   @media (max-width: 580px){
 
  .site_conteudo{
-   padding-top: 180px; 
+   padding-top: 220px; 
   }
 
         .img-con{
