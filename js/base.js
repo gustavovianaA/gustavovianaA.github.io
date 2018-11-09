@@ -1,5 +1,32 @@
 $(document).ready(function(){
 
+$(".site_conteudo").hide();
+
+setTimeout(function(){
+$(".site_conteudo").fadeIn();
+$("body").css("backgroundColor","#d1d6e0");
+$(".footer").show();
+
+} , 1200)
+
+var count = 0;
+
+function initial_anim(){
+ var w = $(".initial_anim").width(); 
+$(".initial_anim").css("width", w-2);   
+ var h = $(".initial_anim").height(); 
+$(".initial_anim").css("height", h-2); 
+
+if(count < 1100)
+setTimeout(initial_anim,10);
+else
+$(".initial_anim").hide();
+count += 10;
+}
+
+setTimeout(initial_anim,10);
+
+
 
 	
 $("#next").click(function(){
@@ -65,6 +92,9 @@ $(window).scroll(function(event){
    lastScrollTop = st;
    
 });
+
+
+
 
 /*
 $(".img-con").mouseover(function(){
