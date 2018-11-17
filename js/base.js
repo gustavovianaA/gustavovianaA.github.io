@@ -81,7 +81,23 @@ $(".controles").show();
 var lastScrollTop = 0;
 
 $(window).scroll(function(event){
+
+ 
+
+var controles = $(".controles").offset().top + $(".controles").outerHeight();
+var footer = $(".footer").offset().top;
+
+if(controles > footer){
+ $(".controles").css("visibility","hidden"); 
+}else{
+  $(".controles").css("visibility","visible"); 
+}
+
+console.log("controle"+controles+"footer"+footer);
+
+
    var st = $(this).scrollTop();
+   
    if (st > lastScrollTop){
        var soma = parseInt($(".controles").css("top")) + (st - lastScrollTop);
        $(".controles").css("top", soma + "px") ;

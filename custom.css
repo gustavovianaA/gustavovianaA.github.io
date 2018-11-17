@@ -66,15 +66,14 @@ top: 120px;
 
      .controles_div{
      padding: 0;
-
-     
+     z-index: 1;
      }
 
      .controles{
       position:relative;
       top: 10px;
       width:80%;
-    
+      
      padding: 4px; 
     
      }
@@ -162,12 +161,14 @@ top: 120px;
      .footer{
         background-color: #333c4d;
         display: none;
+       z-index: 9999;
      }
 
      .footer_links{
       background-color: #667899;
       border: 5px solid #333c4d;
       padding-bottom: 0;
+
      }
 
      .footer_links:hover{
