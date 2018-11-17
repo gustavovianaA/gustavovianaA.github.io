@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-if ($(window).width() > 580){
+if ($(window).width() > 992){
 
 $(".footer_links").hide(); 
 
