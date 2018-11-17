@@ -1,7 +1,7 @@
 $(document).ready(function(){
 
 
-  if ($(window).width() > 580) {
+if ($(window).width() > 580){
 
 $(".footer_links").hide(); 
 
@@ -20,12 +20,6 @@ function display_3(){
   
 }
 
-}
-
-	
-
-
-
 $(window).scroll(function() {
    var hT = $('.footer').offset().top,
        hH = $('.footer').outerHeight(),
@@ -34,13 +28,26 @@ $(window).scroll(function() {
 
        
    if (wS > (hT+hH-wH) -10){
-   		$(".credits").show();
-   	$(".footer_links").eq(0).fadeIn()
-   	setTimeout(display_1,400);
+      $(".credits").show();
+    $(".footer_links").eq(0).fadeIn()
+    setTimeout(display_1,400);
    }
+
+   });
+
+}else{
+  $(".credits").show();
+  $(".footer_links").eq(0).fadeIn()
+}
+
+	
+
+
+
+
      
  
-});
+
 
 $(".footer_links").mouseenter(function(){
 
