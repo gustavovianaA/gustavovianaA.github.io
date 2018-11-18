@@ -33,14 +33,7 @@ top: 120px;
 
 
 
-.container-fluid {
-  width: 100% ;
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
 
-}
 
   .conteudo{
       display: none;
@@ -81,14 +74,14 @@ top: 120px;
      .controles{
       position:relative;
       top: 10px;
-      width:100%;
+      width:80%;
       
      padding: 4px; 
     
      }
 
    #back{
-    border-right : 3px solid #d93f42;
+    border-right : 3px solid #9E9E9E;
     float: right;
     }
 
@@ -299,7 +292,9 @@ top: 120px;
 
         .controles{
      
-      width:95%;
+      width:100%;
+
+       padding: 0; 
     
    
     
