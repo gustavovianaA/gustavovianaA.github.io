@@ -72,7 +72,7 @@ top: 120px;
      .controles{
       position:relative;
       top: 10px;
-      width:80%;
+      width:100%;
       
      padding: 4px; 
     
@@ -113,16 +113,27 @@ top: 120px;
       }
 
       .portfolio_item{
-        border-radius: 8px;
+      border: 1px solid #333c4d; 
+      }
+
+      .portfolio_item:hover{
       border: 1px solid #d93f42; 
+      cursor: pointer;
       }
 
      
 
-      .portfolio_titulo{
-      border-radius: 8px 8px 0 0;
-      background-color: #d93f42; 
+       .portfolio_titulo{
+    
+      background-color: #333c4d; 
       }
+
+
+      .portfolio_item:hover  .portfolio_titulo{
+          background-color: #d93f42; 
+      }
+
+
 
 
        .portfolio_mais{
@@ -151,6 +162,10 @@ top: 120px;
      background-color:#52607a;
      color: #fff;
      line-height: 1.2em;
+     }
+
+     #my_info{
+      word-wrap: break-word;
      }
 
      .sobre_descricao{
@@ -283,7 +298,8 @@ top: 120px;
 
         .conteudo_titulos{
     background-color: #52607a;
-    color: #fff;  
+
+
     line-height: 1.5em;
     }
 

@@ -32,16 +32,16 @@ $("#" + id).show().css("opacity","0").animate({opacity: "1"},500 );
 
 $(".menu_conteudo").mouseover(function(){
 
-$(this).css("backgroundColor","#95a0b7");
-//$(this).find('.nav-link').css("color","#000");
+//$(this).css("backgroundColor"," #d93f42");
+$(this).find('.nav-link').css("color"," #d93f42");
 
 });
 
 
 $(".menu_conteudo").mouseout(function(){
 
-$(this).css("backgroundColor","transparent");
-//$(this).find('.nav-link').css("color","#fff");
+//$(this).css("backgroundColor","transparent");
+$(this).find('.nav-link').css("color","#fff");
 
 });
 

@@ -37,7 +37,7 @@ $(window).scroll(function() {
 
 }else{
   $(".credits").show();
-  $(".footer_links").eq(0).fadeIn()
+  $(".footer_links").show();
 }
 
 	
