@@ -50,9 +50,29 @@ $(".nav-link").click(function(){
 $(".controles").show();
 
 if($(".atual").attr("id") == 1){
-$("#back").hide();	
+$('#back').css("border-right", "3px solid #9E9E9E");
+$('#back').attr('src','img/esquerda_off.png');
+
+$('#next').attr('src','img/direita.png');
+$('#next').css("border-left", "3px solid #d93f42");
+
+
 }else if($(".atual").attr("id") == 3){
-$("#next").hide();
+
+$('#back').css("border-right", "3px solid #d93f42");
+$('#back').attr('src','img/esquerda.png');
+
+$('#next').attr('src','img/direita_off.png');
+$('#next').css("border-left", "3px solid #9E9E9E");
+
+}else{
+
+$('#back').css("border-right", "3px solid #d93f42");
+$('#back').attr('src','img/esquerda.png');
+
+$('#next').attr('src','img/direita.png');
+$('#next').css("border-left", "3px solid #d93f42");
+
 }
 
 });
