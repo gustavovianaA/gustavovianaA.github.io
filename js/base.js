@@ -1,5 +1,18 @@
 $(document).ready(function(){
 
+
+  MathJax.Hub.Config({
+    extensions: ["tex2jax.js"],
+    jax: ["input/TeX", "output/HTML-CSS"],
+    tex2jax: {
+      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
+      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
+      processEscapes: true
+    },
+    "HTML-CSS": { fonts: ["TeX"] }
+  });
+
+
 //Mudar o layout no portfolio e depois voltar ao normal
 
   function layout_change(){
@@ -79,21 +92,34 @@ $(".site_conteudo").fadeIn();
 $("body").css("backgroundColor","#d1d6e0");
 $(".footer").show();
 
-} , 1200)
+} , 4000)
 
 var count = 0;
 
 function initial_anim(){
- var w = $(".initial_anim").width(); 
-$(".initial_anim").css("width", w-2);   
- var h = $(".initial_anim").height(); 
-$(".initial_anim").css("height", h-2); 
+ 
+ slogan_string = "Gustavo Viana Desenvolvedor"
 
-if(count < 1100)
-setTimeout(initial_anim,10);
-else
-$(".initial_anim").hide();
-count += 10;
+$(".initial_anim h1").append(slogan_string[count+1])
+
+if(count < slogan_string.length){
+setTimeout(initial_anim,80);}
+else if (count == slogan_string.length){ 
+
+$(".initial_anim h1").append("<span id=web> </span>");
+$("#web").html(" WEB")  
+
+setTimeout(function(){
+$(".initial_anim ").hide();  
+},1700);
+
+}
+
+
+count += 1;
+
+
+
 }
 
 setTimeout(initial_anim,10);
