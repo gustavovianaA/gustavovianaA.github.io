@@ -92,7 +92,7 @@ $(".site_conteudo").fadeIn();
 $("body").css("backgroundColor","#d1d6e0");
 $(".footer").show();
 
-} , 4000)
+} , 4000);
 
 var count = 0;
 
@@ -226,11 +226,7 @@ console.log("controle"+controles+"footer"+footer);
 
 
 
-/*
-$(".img-con").mouseover(function(){
 
-$(this).animate({borderWidth: "6px"},100);
 
-});*/
 
 });

@@ -112,6 +112,11 @@ font-size: 1.4em;
       margin: 0 1%;
       }
 
+      .img-con:hover{
+           box-shadow: 0 0 25px #52607a; 
+           border-color: #52607a;
+      }
+      
       .formacao_item{
     border-radius: 8px;
       border: 1px solid #d93f42; 
