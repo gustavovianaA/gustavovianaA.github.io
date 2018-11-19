@@ -196,6 +196,8 @@ var lastScrollTop = 0;
 
 $(window).scroll(function(event){
 
+
+
  
 
 var controles = $(".controles").offset().top + $(".controles").outerHeight();
@@ -207,11 +209,20 @@ if(controles > footer){
   $(".controles").css("visibility","visible"); 
 }
 
-console.log("controle"+controles+"footer"+footer);
+
 
 
    var st = $(this).scrollTop();
-   
+
+/*
+  !Animate the logo
+
+   if(st == 100){
+   $("#nav-logo").animate({"width" : "70%"},100); 
+   }
+  
+  */
+
    if (st > lastScrollTop){
        var soma = parseInt($(".controles").css("top")) + (st - lastScrollTop);
        $(".controles").css("top", soma + "px") ;
