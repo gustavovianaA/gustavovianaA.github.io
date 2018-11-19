@@ -13,12 +13,17 @@
       color: #fff;
     }
 
-    .navbar_marca{
-     border-right: 1px solid #949fb8;      
+    #nav-logo{
+    display: none;  
     }
+
 
     .navbar_icon{
       width: 100%;
+    }
+
+    .dweb{
+     color: #d93f42; 
     }
 
 .initial_anim {
