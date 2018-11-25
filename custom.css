@@ -294,6 +294,12 @@ font-size: 1.4em;
   
 }
 
+    #nav-logo{
+    text-align: center;
+    width: 20%;
+   
+    }
+
 
   @media (max-width: 580px){
 
