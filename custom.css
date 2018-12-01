@@ -49,7 +49,10 @@ font-size: 1.4em;
 }
 
 
-
+.me_img{
+ border: 4px  double #333c4d; 
+ text-align:center;
+}
 
 
   .conteudo{

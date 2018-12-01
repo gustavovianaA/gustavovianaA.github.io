@@ -1,16 +1,6 @@
 $(document).ready(function(){
 
 
-  MathJax.Hub.Config({
-    extensions: ["tex2jax.js"],
-    jax: ["input/TeX", "output/HTML-CSS"],
-    tex2jax: {
-      inlineMath: [ ['$','$'], ["\\(","\\)"] ],
-      displayMath: [ ['$$','$$'], ["\\[","\\]"] ],
-      processEscapes: true
-    },
-    "HTML-CSS": { fonts: ["TeX"] }
-  });
 
 
 //Mudar o layout no portfolio e depois voltar ao normal
@@ -19,12 +9,15 @@ $(document).ready(function(){
 
     
   $("#sem_info").removeClass("col-lg-9 ");
-
+ 
 
   $("#my_info").removeClass("col-lg-3   justify-content-center pt-lg-0");
   $("#my_info").addClass("justify-content-end    col-lg-10 pt-lg-4");
   
   $(".sobre_titulo").addClass("col-12 ");
+
+  $("#img_div").removeClass("col-md-12");
+  $("#img_div").addClass("col-md-4");
 
   if($(window).width() > 580){
   $(".controles").css("width","60%");  
@@ -46,6 +39,10 @@ function layout_return(){
     $("#my_info").addClass("col-lg-3  mx-auto justify-content-center pt-lg-0");
 
     $(".sobre_titulo").removeClass("col-12");
+
+    
+    $("#img_div").removeClass("col-md-4");
+    $("#img_div").addClass("col-md-12");
 
      $(".controles").css("width","80%");
 
