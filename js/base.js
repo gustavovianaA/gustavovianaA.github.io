@@ -233,7 +233,14 @@ if(controles > footer){
 
 
 
+//Animações das imagens da page conhecimento
 
+$(".imgcon").mouseenter(function(){
+$(this).animate({opacity : "0.1"},200,
+  function(){
+   $(this).animate({opacity: "1"},200); 
+  });
+});
 
 
 
