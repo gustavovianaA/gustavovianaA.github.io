@@ -141,6 +141,7 @@ font-size: 1.4em;
 
       .portfolio_item{
       border: 1px solid #333c4d; 
+      height: 300px;
       }
 
       .portfolio_item:hover{
@@ -178,7 +179,8 @@ font-size: 1.4em;
       }
 
      .img_port{
-      width: 60%;
+      width: 100%;
+      height: 78.691%;
      }
 
      .img_port_modal{
