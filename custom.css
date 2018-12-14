@@ -138,6 +138,38 @@ font-size: 1.4em;
       .formacao_titulo{
        background-color: #dd5557; 
       }
+      
+      .livros_lista , .sites_lista , .videos_lista{
+      display: none;
+      }
+
+      .aprendizado_titulo{
+       font-size: 1.3em; 
+       padding: 10px 0 10px 10px;
+       cursor:pointer;
+      }
+
+      .aprendizado_titulo:hover .aprendizado_status{
+      color: yellow;
+      }
+
+      .aprendizado_status{
+       line-height: 0.8em;
+        padding: 0;
+        margin:0;
+      float: left;
+      font-size: 1.5em;
+      }
+
+   
+
+      .livro_titulo{
+       font-weight: 700; 
+      }
+
+      .livro_img{
+       border: 1px solid #000; 
+      }
 
       .portfolio_item{
       border: 1px solid #333c4d; 
