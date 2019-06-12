@@ -1,3 +1,8 @@
-.sections{
-height: 500px;	
+.info{
+background-color: gray;
+color: #fff;	
+}
+
+nav{
+background-color: gray;	
 }
