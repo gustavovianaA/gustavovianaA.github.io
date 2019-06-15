@@ -1,8 +1,48 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+html,body{
+min-height: 100%	
+}
+
+body{
+font-family: 'Muli', sans-serif;}
+header{
+background: #303136;	
+}
+header h1{
+color:#d6d7db;	
+}
+nav{
+background-color: #484a51;	
+}
+
+.main{
+  overflow-y:auto;
+  padding-bottom:150px; 
+}
+
 .info{
-background-color: gray;
+background-color: #6c6f7a;
 color: #fff;	
 }
 
-nav{
-background-color: gray;	
+.info_habilidades li{
+border-bottom: 1px solid transparent;
+transition: .3s;	
+}
+
+.info_habilidades li:hover{
+border-bottom-color: #000;
+color:#fff;	
+cursor: pointer;
+}
+
+footer{
+color:#d6d7db;
+background: #0c0c0e;	
+
+ position: relative;
+  margin-top: -150px; /* negative value of footer height */
+  height: 150px;
+  clear:both;
+  padding-top:20px;
 }
