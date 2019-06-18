@@ -1,18 +1,24 @@
 @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,700,900&display=swap');
 html,body{
 min-height: 100%	
 }
-
 body{
 font-family: 'Muli', sans-serif;}
 header{
 background: #303136;	
 }
 header h1{
-color:#d7283f;	
+color:#fff;
+font-family: 'Titillium Web', sans-serif;	
+font-weight: 900;
+}
+#web{
+color:#d7283f;
 }
 nav{
-background-color: #484a51;	
+background-color: #484a51;
+font-weight: bold;	
 }
 
 #navbarSupportedContent ul li{
@@ -21,7 +27,7 @@ background:#303136;
 #navbarSupportedContent ul li a{
 color: #d7283f;	
 padding: 20px 10px;
-transition: .2s;
+transition: .1s;
 }
 #navbarSupportedContent ul li a:hover{
 background:#d6d7db;
@@ -45,13 +51,28 @@ height: 600px;
 .info h2{
 background: #410c13;	
 }
+
+ .info_habilidades {
+  list-style: none; /* Remove default bullets */
+}
+
+.info_habilidades li::before {
+  content: "\271A";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #d7283f; /* Change the color */
+  /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-right: 0.5em;
+}
+
 .info_habilidades li{
 border-bottom: 1px solid transparent;
 transition: .3s;	
 }
 
 .info_habilidades li:hover{
-border-bottom-color: #000;
+border-bottom-color: #d7283f;
 color:#fff;	
 cursor: pointer;
 }
@@ -62,12 +83,35 @@ color: #fff;
 }
 
 footer{
+	overflow-x: hidden;
 color:#d6d7db;
-background: #0c0c0e;	
+background: #000;	
 
  position: relative;
-  margin-top: -170px; /* negative value of footer height */
-  height: 170px;
+  margin-top: -150px; /* negative value of footer height */
+  height: 100%;
   clear:both;
   padding-top:20px;
+
+  background-image: url('../img/footer_bkg.png');
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover;
+}
+
+.footer_title{
+color: #d7283f;
+}
+
+.habilidades_footer{
+margin-left: -10%; 	
+}
+
+.habilidades_footer ul li:hover{
+border-bottom-color: #d7283f;
+cursor: pointer;
+}
+
+#footer_hr{
+border-color:#d7283f;	
 }
