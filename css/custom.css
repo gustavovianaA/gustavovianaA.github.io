@@ -41,12 +41,28 @@ padding: 10px 10px !important;
   overflow-y:auto;
   padding-bottom:150px; 
 }
+.homeLink{
+color: #000;
+}   
+.homeLink:hover{
+color: #d7283f; 
+text-decoration: none; 
+}
+.homeLink h3{
+padding-left: 5px;
+border-left: 4px solid #d7283f;  
+}
 
 .info{
 background-color: #6c6f7a;
 color: #fff;	
-height: 600px;
+min-height: 100%;
 }
+
+.info a{
+color: #d7283f;  
+font-size: 1.1em;
+} 
 
 .info h2{
 background: #410c13;	
@@ -82,6 +98,10 @@ background: #561019;
 color: #fff;	
 }
 
+.contentDivider{
+background: #d7283f;  
+}
+
 footer{
 	overflow-x: hidden;
 color:#d6d7db;
@@ -115,3 +135,79 @@ cursor: pointer;
 #footer_hr{
 border-color:#d7283f;	
 }
+
+/*PORTFÓLIO*/
+
+.cardTitle{
+color: #fff !important;
+background: #d7283f !important;
+padding: 5px 10px;  
+text-align: center;
+
+}
+
+.collapseTitle{
+color: #d7283f; 
+font-size: 1.1em; 
+transition: .3s;
+}
+.collapseTitle:hover{
+color: #d7283f;  
+}
+
+.cardItem{
+border:1px solid  transparent;  
+transition: .3s;
+display: inline-block !important;
+box-shadow:  #aeafb7 0px 0px 5px 5px; 
+}
+
+.cardItem:hover{
+box-shadow:  #d7283f 0px 0px 5px 5px; 
+}
+
+.portCardsub{
+font-weight: 700;
+color: #d7283f;  
+}
+
+.btnCard{
+background: #fff;
+color: #d7283f;
+border: 1px solid #d7283f;  
+transition: .4s;
+}
+.btnCard:hover{
+color: #fff;
+background: #d7283f;  
+}
+
+/*Links*/
+ .linksList {
+  list-style: none; /* Remove default bullets */
+}
+
+.linksList a{
+color: #000;
+}
+
+.linksList a:hover{
+color: #d7283f;
+}
+
+.linksList li::before {
+  content: "\271A";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: #d7283f; /* Change the color */
+  /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+  margin-right: 0.5em;
+}
+
+/*Linux */
+.tbCode{
+width: 30%;  
+}
+
+
