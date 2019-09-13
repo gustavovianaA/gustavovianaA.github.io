@@ -183,6 +183,12 @@ background: #d7283f;
 }
 
 /*Links*/
+
+.border_bottom{
+padding: 4px 20px;
+
+border-bottom: 1px solid #561019;  
+}
  .linksList {
   list-style: none; /* Remove default bullets */
 }
@@ -210,4 +216,33 @@ color: #d7283f;
 width: 30%;  
 }
 
+/*Roteiro de estudos*/
+.roteiro_obs span{
+font-weight: 700;  
+}
+.card-header h2{
+background : transparent;
+}
+.subject{
+background : #fff !important;
+color : #561019 !important;
+margin : 10px 0;
+padding: 5px 0;
+border-bottom : 2px solid #561019;
+}
+.all_btn{
+       color : #fff;
+       font-size: 0.6em; 
+     
+      }
+      .all_btn:hover{
+       color : #fff;
+       background : #561019;
+      }
+
+#proj_acord .card{
+margin : 0;
+}
+.info_roteiro{min-height: 100% ; margin-bottom: -20px;}  
+}
 
