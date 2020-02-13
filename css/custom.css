@@ -245,4 +245,9 @@ margin : 0;
 }
 .info_roteiro{min-height: 100% ; margin-bottom: -20px;}  
 }
+.concluido{
+display: inline-block;
+float : right; 
+color : #fff;
+}
 
